@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NES</string>
+    <string name="title_activity_parent_home_screen">NES International</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+
+    <string name="title_section3">Section 3</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="password">PASSWORD</string>
+    <string name="username">USERNAME</string>
+    <string name="log_in">Log In</string>
+    <string name="international">International</string>
+    <string name="nes">NES</string>
+    <string name="register">REGISTER</string>
+    <string name="profile">PROFILE</string>
+</resources>

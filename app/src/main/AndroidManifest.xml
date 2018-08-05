@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nes">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ParentHomeScreen"
+            android:label="@string/title_activity_parent_home_screen" />
+        <activity
+            android:name=".StudentProfileView"/>
+        <activity
+            android:name=".ParentProfileView"/>
+        <activity android:name=".StudentHomeScreen" />
+        <activity android:name=".FeeDetails" />
+        <activity android:name=".StudentAttendance" />
+        <activity android:name=".StudentResult" />
+        <activity android:name=".StudentGallery" />
+        <activity android:name=".StudentDiary" />
+        <activity android:name=".AlertsFromSchool" />
+        <activity android:name=".ClassCircular" />
+        <activity android:name=".SchoolCircular"></activity>
+    </application>
+
+</manifest>
